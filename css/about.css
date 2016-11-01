@@ -1,0 +1,18 @@
+.about {
+  background-color: #c15236;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.about .profileimg img{
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.about hr {
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 10px 0;
+}

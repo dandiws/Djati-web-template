@@ -1,0 +1,128 @@
+@import url(font-awesome.min.css);
+.kontak-form {
+  width: 100%;
+  background-color: #43b685;
+  color: #f9f9f9;
+}
+.kontak-form h1 {
+  text-align: center;
+}
+
+.kontak-form .formku {
+  width: 60%;
+  margin: auto;
+}
+@media screen and (max-width:768px) {
+  .kontak-form .formku {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .kontak-form .formku {
+    width: 90%;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.kontak-form .formku input,
+.kontak-form .formku textarea {
+  width: 100%;
+  padding: 1.5em;
+  box-sizing: border-box;
+  margin: 10px 0;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: 0;
+  color: #43b685;
+  outline: none;
+  font-family: 'open_sans','Arial',sans-serif;
+}
+
+.kontak-form .formku input[type="radio"],
+.kontak-form .formku input[type="checkbox"] {
+  display: block;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1;
+  float: left;
+}
+.kontak-form .formku input[type="radio"]+label,
+.kontak-form .formku input[type="checkbox"]+label {
+  text-decoration: none;
+  color: #f9f9f9;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 400;
+  padding-left: 2.4em;
+  padding-right: 0.75em;
+  position: relative;
+}
+.kontak-form .formku input[type="radio"]+label:before,
+.kontak-form .formku input[type="checkbox"]+label:before {
+  width: 25px;
+  height: 25px;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  margin:3px -30px;
+  border-radius: 5px;
+  border: 2px solid #f9f9f9;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+.kontak-form .formku input[type="radio"]+label:before {
+  border-radius: 100%;
+}
+
+.kontak-form .formku input[type="radio"]:checked+label:before {
+  border: 8px solid #f9f9f9;
+}
+
+.kontak-form .formku input[type="checkbox"]:checked+label:before {
+  content: '\f00c';
+  text-align: center;
+  line-height: 20px;
+  font-family: FontAwesome;
+  color: #43b685;
+  background-color: #f9f9f9;
+  transition: 0.2s;
+}
+
+.kontak-form .formku ul.actions {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.kontak-form .formku .actions li {
+  display: inline-block;
+}
+
+.kontak-form .formku .actions li input {
+  border: 0px;
+  padding: 1em;
+  font-weight: 700;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+.kontak-form .formku .actions li input.submit {
+  background: #438cb6;
+  transition: 0.2s;
+}
+
+.kontak-form .formku .actions li input.reset {
+  background: #dd5252;
+  transition: 0.2s;
+}
+.kontak-form .formku .actions li input:hover {
+  background: rgba(0, 0, 0, 0.5);
+}

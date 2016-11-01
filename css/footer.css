@@ -1,0 +1,143 @@
+/*---------FOOTER----------*/
+
+#footer {
+padding: 2em 0;
+background: #303030;
+}
+
+.block-footer {
+    width: 100%;
+}
+
+#footer .links {
+    height: auto;
+    width: 90%;
+    margin:auto;
+    border-bottom: 2px solid rgba(1,1,1,0.15);
+    font-size: 0;
+    margin-bottom: 15px;
+}
+
+#footer .kolom-link {
+    width: 32.3%;
+    height: auto;
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px 0.5%;
+    vertical-align: top;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#footer .kolom-link a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+#footer .kolom-link a:hover {
+    color: #ffb71d;
+}
+
+#footer .kolom-link h2 {
+    color: #aaa;
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+
+#footer .copyright-kontainer {
+    width: 90%;
+    margin: auto;
+    line-height: 4em;
+
+}
+
+#footer ul {
+    display: inline-block;
+    list-style: none;
+
+}
+.icons-footer {
+    float: right;
+}
+
+#footer li{
+    display: inline-block;
+    color: #777;
+}
+
+#footer li a{
+    text-decoration: none;
+    color: #777;
+    font-weight: bolder;
+}
+#footer .copyright a:hover {
+    color: #ffb71d;
+}
+
+#footer a.icon {
+    font-size: 1.5em;
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5em;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+    transition: 0.2s;
+}
+
+#footer .icon .label {
+  display: none;
+}
+
+
+#footer .fa-twitter:hover {
+    color: #2daae4;
+    transition: 0.2s;
+}
+
+#footer .fa-facebook:hover {
+    color: #39599f;
+    transition: 0.2s;
+}
+
+#footer .fa-google-plus:hover {
+    color: #c91e1f;
+    transition: 0.2s;
+}
+
+#footer .fa-instagram:hover {
+    color: #d9b762;
+    transition: 0.2s;
+}
+
+/*-----------FOOTER---------*/
+
+@media screen and (max-width: 860px) {
+
+        #footer .copyright-kontainer {
+            width: 90%;
+            margin: auto;
+            line-height: 2em;
+            text-align: center;
+        }
+
+        .icons-footer {
+            padding-top:1em;
+            float: none;
+        }
+
+        #footer .kolom-link {
+            width: 100%;
+            height: auto;
+            font-size: 15px;
+            padding: 0.5%;
+            vertical-align: top;
+            text-align: left;
+            line-height: 1.5em;
+            margin-bottom: 1em;
+        }
+}

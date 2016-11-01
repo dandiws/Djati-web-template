@@ -1,0 +1,73 @@
+.blog h6 a:hover{
+  text-decoration: underline;
+}
+  .blog time {
+  font-size: 14px;
+  color: #777;
+  display: block;
+  margin-bottom: 10px;
+}
+.blog img, .blog img.left {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.blog img.right {
+  float: right;
+  margin-left: 20px;
+}
+.blog img:hover {
+  transform: scale(1.1);
+  transition: .3s;
+}
+.blog img#artikel {
+  width: 300px;
+}
+.blog .share {
+  display: block;
+  padding: 10px 0;
+}
+.blog .share h6 {
+  font-size: 1em;
+  line-height: 30px;
+}
+.blog .share ul {
+  font-size: 17px;
+  list-style-type: none;
+}
+.blog .share ul li {
+  display: inline-block;
+  width:35px;
+  height: 35px;
+  text-align: center;
+}
+
+.share-icon {
+  font-size: 1em;
+  line-height: 35px;
+  color: #f9f9f9;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+}
+.share-icon.fb{
+  background-color: #39599f;
+}
+.share-icon.gplus {
+  background-color: #c91e1f;
+}
+.share-icon.inst {
+  background-color: #d9b762;
+}
+.share-icon.pin {
+  background-color: #f61c1e;
+}
+.share-icon.twit {
+  background-color: #2daae4;
+}
+.share-icon:hover {
+  opacity: 0.8;
+}
