@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navmenu.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+  </head>
+  <body>
+<!--Navmenu-->
+    <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+    <label for="nav-trigger"><span class="fa"></span></label>
+
+    <div class="navmenu">
+      <div class="logo">
+        <div class="logo-kontainer">
+            <a href="index.html"><img src="gambar/d-logo.svg" alt="Logo" class="menu-d-logo">
+            Djati</a>
+          <input type="text" name="search" value="" placeholder="search" class="searchq">
+        </div>
+      </div>
+      <ul>
+          <a href="index.html"><li><i class="fa fa-home"></i> Home</li></a>
+          <a href="about.html"><li  class="menuactive"><i class="fa fa-user"></i> About</li></a>
+          <a href="contact.html"><li><i class="fa fa-paper-plane"></i> Contact</li></a>
+          <a href="portfolio.html"><li><i class="fa fa-tag"></i> Portfolio</li></a>
+          <a href="blog.html"><li><i class="fa fa-pencil"></i> Blog</li></a>
+          <a href="mystyle.html"><li><i class="fa fa-tint"></i> Styles</li></a>
+      </ul>
+    </div>
+
+  <!-- SEMUA KONTEN HARUS DIDALAM site-wrapper -->
+  <div class="site-wrapper" id="top">
+
+    <!-- Form -->
+    <section class="about">
+      <div class="container">
+        <h1>About Me</h1>
+        <div class="profileimg"><img src="gambar/me.jpg" alt="Dandi"></div>
+        <h6>Dandi Wiratsangka Sejati</h6>
+        <p class="h-light"><i class="fa fa-bullhorn"></i> Hi There! it's nice to meet you. Many people call me Dandi, what should I call you?</p>
+        <hr>
+        <div class="acc-kontainer">
+          <div><!--Acc-->
+            <input type="radio" name="acc" id="acc1" value="" checked>
+            <label for="acc1"><i class="fa fa-birthday-cake"></i> When was your Birthday?</label>
+            <div class="acc-body">
+              Based on my birth certificate, I was born in October 12<sup>th</sup>, 1999.
+            </div>
+          </div>
+          <div><!--Acc-->
+            <input type="radio" name="acc" id="acc2" value="">
+            <label for="acc2"><i class="fa fa-university"></i> Where do you study?</label>
+            <div class="acc-body">
+              Computer Science, Gadjah Mada University
+            </div>
+          </div>
+          <div><!--Acc-->
+            <input type="radio" name="acc" id="acc3" value="">
+            <label for="acc3"><i class="fa fa-map-marker"></i> Where do you come from?</label>
+            <div class="acc-body">
+              I am from Pemalang, small town in Central Java.
+            </div>
+          </div>
+          <div><!--Acc-->
+            <input type="radio" name="acc" id="acc4" value="">
+            <label for="acc4"><i class="fa fa-map-marker"></i> Where do you live?</label>
+            <div class="acc-body">
+              I live in Sendowo,Yogyakarta right now.
+            </div>
+          </div>
+            <div><!--Acc-->
+              <input type="radio" name="acc" id="acc5" value="">
+              <label for="acc5"><i class="fa fa-heart"></i> What are you interesting for?</label>
+              <div class="acc-body">
+                All the thing about Technology! Informatic technology especially.
+              </div>
+            </div>
+            <div><!--Acc-->
+              <input type="radio" name="acc" id="acc6" value="">
+              <label for="acc6"><i class="fa fa-music"></i> What is your hobby?</label>
+              <div class="acc-body">
+                i love music <i class="fa fa-headphones"></i>, watching movie <i class="fa fa-film"></i>, Designing maybe <i class="fa fa-code"></i>
+              </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="block-footer">
+            <div class="links">
+                <div class="kolom-link">
+                    <h2>Information</h2>
+                    <a href="#">Term of Use</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+                <div class="kolom-link">
+                    <h2>Get in touch</h2>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+                <div class="kolom-link">
+                    <h2>More</h2>
+                    <a href="#">About me</a>
+                    <a href="#">Follow me</a>
+                </div></div>
+            </div>
+            <div class="copyright-kontainer">
+                        <ul class="copyright">
+                            <li>&copy; 2016 | Dandi Wiratsangka | All rights reserved | Designed with <i class="fa fa-heart"></i> by <a href="about.html">Dandi</a></li>
+                        </ul>
+                        <ul class="icons-footer">
+                            <li>
+                                <a class="icon fa fa-facebook"><span class="label">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a class="icon fa fa-google-plus"><span class="label">Google+</span></a>
+                            </li>
+                            <li>
+                                <a class="icon fa fa-instagram"><span class="label">Instagram</span></a>
+                            </li>
+                            <li>
+                                <a class="icon fa fa-twitter"><span class="label">Twitter</span></a>
+                            </li>
+                        </ul>
+                        </div>
+        </div>
+    </footer>
+    <a href="#top" class="gotop"><i class="fa fa-chevron-up"></i></a>
+
+
+  </div><!--End of Site wrapper-->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/djati0.js"></script>
+  </body>
+</html>

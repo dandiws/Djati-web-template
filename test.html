@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header-home.css">
+    <link rel="stylesheet" href="css/navmenu.css">
+    <link rel="stylesheet" href="css/kontak.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+  </head>
+  <body>
+    <div id="top"></div>
+    <div id="popup1" class="overlay-search">
+        <a class="close" href="#">&times;</a>
+        <div class="popup-search">
+              <input type="text" name="search" value="" placeholder="search" class="search-depan">
+        </div>
+    </div>
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+    <label for="nav-trigger"><span class="fa"></span></label>
+
+    <div class="navmenu">
+      <div class="logo">
+        <div class="logo-kontainer">
+            <img src="gambar/d-logo.svg" alt="Logo" class="menu-d-logo">
+            <a href="#">Djati</a>
+          <input type="text" name="search" value="" placeholder="search" class="searchq">
+        </div>
+      </div>
+      <ul>
+          <a href="#"><li class="menuactive"><i class="fa fa-home"></i> Home</li></a>
+          <a href="about.html"><li><i class="fa fa-user"></i> About</li></a>
+          <a href="contact.html"><li><i class="fa fa-paper-plane"></i> Contact</li></a>
+          <a href="portofolio.html"><li><i class="fa fa-tag"></i> Portfolio</li></a>
+          <a href="blog.html"><li><i class="fa fa-pencil"></i> Blog</li></a>
+      </ul>
+    </div>
+  <!-- SEMUA KONTEN HARUS DIDALAM site-wrapper -->
+  <div class="site-wrapper">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-kontainer">
+        <img src="gambar/d-logo.svg" alt="">
+        <div class="h-text"><h1>Hello! Nice to meet you</h1></div>
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#popup1"><i class="fa fa-search"></i></a></li>
+        </ul>
+        <div class="arrowdown" onclick="scrollGan()"><i class="fa fa-angle-double-down arrowanim"></i></div>
+      </div>
+    </div>
+    <!-- Margin in scroll -->
+      <div class="margin-scroll" id="marginscroll"></div>
+      <div class="container"></div>
+
+    <!-- Form -->
+        <section class="kontak-form">
+            <h3>Contact form</h3>
+            <form method="post" action="#" class="formku">
+                <div class="block"><input type="text" name="name" id="name" value="" placeholder="Name" required="required"/></div>
+                <div class="block"><input type="email" name="email" id="email" value="" placeholder="Email" required="required"/></div>
+                <div class="block"><input type="text" name="subject" id="subject" value="" placeholder="Subject" required="required"/></div>
+                <div class="block">
+                    <input type="radio" id="male" name="priority" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="priority">
+                    <label for="female">Female</label>
+                </div>
+                <div class="block">
+                    <input type="checkbox" id="human" name="human" checked required="required">
+                    <label for="human">I am a human and not a robot</label>
+                </div>
+                <div class="block">
+                    <textarea name="message" id="message" class="myscroll" placeholder="Enter your message" rows="6" required></textarea>
+                </div>
+                <div  class="block">
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" class="submit" /></li>
+                        <li><input type="reset" value="Reset" class="reset"/></li>
+                    </ul>
+                </div>
+            </form>
+        </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="block-footer">
+            <div class="links">
+                <div class="kolom-link">
+                    <h2>Partners</h2>
+                    <a href="#">Lorem ipsum dolor sit amet</a>
+                    <a href="#">consectetur adipisicing elit</a>
+                </div>
+                <div class="kolom-link">
+                    <h2>Team</h2>
+                    <a href="#">Duis aute irure dolor</a>
+                    <a href="#">consectetur adipisicing elit</a>
+                </div>
+                <div class="kolom-link">
+                    <h2>Sponsors</h2>
+                    <a href="#">Lorem ipsum dolor sit amet</a>
+                    <a href="#">consectetur adipisicing elit</a>
+                    <a href="#">Duis aute irure dolor</a>
+                </div></div>
+            </div>
+            <div class="copyright-kontainer">
+                        <ul class="copyright">
+                            <li>&copy; 2016 | Dandi Wiratsangka | All rights reserved | Designed by <a href="about.html">Dandi</a></li>
+                        </ul>
+                        <ul class="icons-footer">
+                            <li>
+                                <a class="icon fa fa-facebook"><span class="label">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a class="icon fa fa-instagram"><span class="label">Instagram</span></a>
+                            </li>
+                            <li>
+                                <a class="icon fa fa-google-plus"><span class="label">Google+</span></a>
+                            </li>
+                            <li>
+                                <a class="icon fa fa-twitter"><span class="label">Twitter</span></a>
+                            </li>
+                        </ul>
+                        </div>
+        </div>
+    </footer>
+    <a href="#top" class="gotop"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/djati.js"></script>
+  </body>
+</html>
